@@ -9,7 +9,7 @@ an software architecture for cloud game.
 ## Sequence图
 ![image](https://github.com/user-attachments/assets/c582dbe5-e4a5-4a4d-a98c-fb64a586cd07)
 
-##开发计划
+## 开发计划
 1.0版本：
 
 1）、 renderproxy服务实现， 支持http和tcp接入， 通过http申请游戏资源， 通过tcp传输用户端操作指令（该部分后续可能会用webrtc的datachannel取代，暂时在接入RTC之前用来做测试）
