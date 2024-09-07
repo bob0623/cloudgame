@@ -12,8 +12,14 @@ an software architecture for cloud game.
 ##开发计划
 1.0版本：
 1）、 renderproxy服务实现， 支持http和tcp接入， 通过http申请游戏资源， 通过tcp传输用户端操作指令（该部分后续可能会用webrtc的datachannel取代，暂时在接入RTC之前用来做测试）
+
 2）、 接入probobuf实现数据传输的序列化和反序列化；
+
 3）、 定义好用户操作指令， 先支持标准的键盘鼠标指令， 游戏手柄待后续有测试设备了再处理；
+
 4）、 cmdrelayservice实现， 用于接收用户操作指令并将指令发送给操作系统， 模拟用户操作；
+
 5）、 grabscreenservice实现， 实现抓屏功能， 支持零侵入的云游戏运营方式；
+
 6）、 各部分子服务均支持独立的测试， 并提供相应的测试程序；
+
