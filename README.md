@@ -2,8 +2,12 @@
 an software architecture for cloud game. 
 
 过去十多年一直在大厂工作，从事音视频实时通讯和云渲染，云游戏相关工作， 最近闲暇下来， 打算把基础的云游戏架构实现一遍， 供有需要的小伙伴参考， 如果对您有些许帮助，请留下您的小星星，您的鼓励就是我的动力。
+## 关键技术
+![image](https://github.com/user-attachments/assets/85bea221-798c-4c9d-bf43-7b852ac86904)
+## 云游戏技术栈
+![image](https://github.com/user-attachments/assets/ec8988fa-377d-4fd2-bc15-1a6fb1803837)
 
-## 架构图
+## 微服务架构图
 ![image](https://github.com/user-attachments/assets/26cb4845-0ec6-4b05-b7e7-53b9c4d11e7d)
 
 ## Sequence图
