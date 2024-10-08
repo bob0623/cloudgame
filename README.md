@@ -1,5 +1,5 @@
 ## 写在前面
-源码同步于： https://gitcode.net/derry_123/renderproxy
+源码同步于： [https://gitcode.net/derry_123/renderproxy](https://gitcode.net/invite_link?invite_code=owtD3SgixJWgpcGnJrsk)
 # 云游戏
 an software architecture for cloud game. 
 
