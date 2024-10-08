@@ -15,7 +15,8 @@ an software architecture for cloud game.
 ![image](https://github.com/user-attachments/assets/ec8988fa-377d-4fd2-bc15-1a6fb1803837)
 
 ## 微服务架构图
-![image](https://github.com/user-attachments/assets/26cb4845-0ec6-4b05-b7e7-53b9c4d11e7d)
+![image](https://github.com/user-attachments/assets/0a1f23fe-05f9-47ac-bee3-18de80c0d46c)
+
 
 ## Sequence图
 ![image](https://github.com/user-attachments/assets/c582dbe5-e4a5-4a4d-a98c-fb64a586cd07)
