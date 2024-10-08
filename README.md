@@ -5,6 +5,8 @@ an software architecture for cloud game.
 
 #微服务部署视频教程
 视频放在B站： https://www.bilibili.com/video/BV1Lq1RYKEqJ/
+![image](https://github.com/user-attachments/assets/78793100-a643-4174-bb61-1b29d5bc2de2)
+
 ## 关键技术
 ![image](https://github.com/user-attachments/assets/85bea221-798c-4c9d-bf43-7b852ac86904)
 ## 云游戏技术栈
@@ -29,5 +31,7 @@ an software architecture for cloud game.
 
 5）、 grabscreenservice实现， 实现抓屏功能， 支持零侵入的云游戏运营方式；
 
-6）、 各部分子服务均支持独立的测试， 并提供相应的测试程序；
+6）、 支持标准webrtc推拉流整套解决方案， 全端覆盖；
+
+7）、 各部分子服务均支持独立的测试， 并提供相应的测试程序；
 
