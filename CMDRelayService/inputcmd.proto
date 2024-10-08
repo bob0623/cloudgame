@@ -1,0 +1,64 @@
+/*need add #define PROTOBUF_USE_DLLS in inputcmd.pb.h */
+
+syntax = "proto3";
+package render;
+
+message Message {
+    string content = 1;
+}
+
+enum CMDType{
+    CMD_KEY = 0;
+    CMD_MOUSE = 1;
+}
+
+enum KeyActionType{
+    KEY_DOWN = 0;
+    KEY_UP = 1;
+}
+
+enum MouseActionType{
+    MOUSE_LEFT_DOWN = 0;
+    MOUSE_LEFT_UP = 1;
+    MOUSE_RIGHT_DOWN = 2;
+    MOUSE_RIGHT_UP = 3;
+    MOUSE_MIDDLE_DOWN = 4;
+    MOUSE_MIDDLE_UP = 5;
+    MOUSE_MOVE = 6;
+	MOUSE_HOVERMOVE = 7;
+}
+
+message CMDMessage{
+    string content = 1;
+    //key event: {"type","0", "action":"0", "keycode":70, "keyname":'F',}
+    //mouse event: {"type","1", "action":"0", x:"0.2604", y:'0.2604',} x/screen.width, y/screen.height
+}
+
+/*
+typedef struct tagMOUSEINPUT {
+    LONG    dx;
+    LONG    dy;
+    DWORD   mouseData;
+    DWORD   dwFlags;
+    DWORD   time;
+    ULONG_PTR dwExtraInfo;
+} MOUSEINPUT, *PMOUSEINPUT, FAR* LPMOUSEINPUT;
+
+typedef struct tagKEYBDINPUT {
+    WORD    wVk;
+    WORD    wScan;
+    DWORD   dwFlags;
+    DWORD   time;
+
+    
+     * When dwFlags has KEYEVENTF_SYSTEMINJECTION specified this field may carry
+     * KEY_UNICODE_SEQUENCE_ITEM or KEY_UNICODE_SEQUENCE_END which are used by InputService
+     * to distinguish injected unicode sequences. Those flags are stored in low word.
+     * When dwFlags has KEYEVENTF_ATTRIBUTED_INPUT specified this field carries in its high word
+     * ID of attributes associated with injected input. This ID is assigned by InputService and
+     * recognized only by it.
+     * For all other usage scenarios please refer to official documentation.
+     *
+    ULONG_PTR dwExtraInfo;
+} KEYBDINPUT, *PKEYBDINPUT, FAR* LPKEYBDINPUT;
+*/
